@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 ::-moz-selection {
   color: white;
   background: #CEF7A0;
@@ -50,6 +51,7 @@ body {
   background: lavenderblush;
   opacity: 0.9;
   width: 50%;
+  margin-bottom: 90px;
 }
 
 /* ------TYPOGRAPHY------ */
@@ -101,7 +103,7 @@ h2 {
   margin: 15px 0;
 }
 
-h3, h4, h5, h6,  {
+h3, h4, h5, h6, {
   font-weight: 600;
   margin: 10px 0;
 }
@@ -117,6 +119,7 @@ h4 {
 h5 {
   font-size: 1rem;
 }
+
 h7 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -125,10 +128,13 @@ h7 {
 label {
   font-family: 'Montserrat', sans-serif;
 }
+
 /*------ MSG AREA ------*/
 textarea {
   resize: none;
   border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
 textarea .focus {
@@ -138,8 +144,8 @@ textarea .focus {
 sup {
   color: Red;
 }
-/*------CONTAINER-------*/
 
+/*------CONTAINER-------*/
 fieldset {
   border-style: none;
 }
@@ -163,7 +169,7 @@ input#submitForm:hover {
 }
 
 input#submitForm {
-    font-size: 1rem;
-    border-radius: 20px;
-    padding: 7px;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 7px;
 }
