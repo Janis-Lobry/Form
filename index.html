@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Recevoir ma Beauty Box !</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+
+</head>
+
+<body> <br>
+  <h1>Recevoir ma BeautyBox gratuite !</h1>
+  <p class="title">Je m'abonne :</p>
+  <section class="contenair">
+     <form class="custom-form" action="#" method="post">
+      <fieldset>
+        <legend>Identité</legend>
+        <div class="identity">
+          <p>
+            <label class="identity-lab"for="name">Nom:<sup>*</sup></label>
+            <input type="text" name="name" value="" id="name" placeholder="Dupont" required>
+          </p>
+          <p>
+            <label class="identity-lab"for="lastName">Prénom:<sup>*</sup></label>
+            <input type="text" name="lastName" value="" id="lastName" placeholder="Marie" required>
+          </p>
+          <p>
+            <label class="identity-lab"for="email">E-mail:<sup>*</sup></label>
+            <input type="email" name="email" id="email" value="" placeholder="coucou@gmail.com" required>
+          </p>
+          <p>
+            <label class="identity-lab"for="date">Date de naissance:<sup>*</sup></label>
+            <input type="date" name="date" id="date" value="21/07/90" placeholder="ex:21/07/2018" required>
+          </p>
+          <p>
+            <label class="identity-lab"for="adresse">Adresse :<sup>*</sup></label>
+            <input type="text" name="adresse" value="" placeholder="34 bd Dupont 75000 Paris" required>
+          </p>
+
+          <p>
+            <label class="identity-lab" for="preference">Le plus tentant..?</label>
+            <select class="" name="userChoice" id="preference" required>
+              <option value="Sélectionnez une option" disabled selected required>Sélectionnez une option</option>
+              <optgroup label="Beauté">
+                <option value="makeup">Maquillage</option>
+                <option value="parfum">Parfum</option>
+                <option value="hair">Cheveux</option>
+                <option value="boby">Coprs</option>
+              </optgroup>
+              <optgroup label="Bien-être">
+
+                <option value="haircare">Soin capilaire</option>
+                <option value="facecare">Soin visage</option>
+                <option value="bodywash">Bain & douche</option>
+                <option value="suprise">Surprenez-moi!</option>
+              </optgroup>
+            </select>
+          </p>
+        </div>
+
+      </fieldset>
+      <fieldset>
+        <legend>Choix de vos Beauty Boxes !</legend>
+        <div class="civility">
+          <p>
+         <h7>Choisissez la durée de votre abonnement :</h7 required> <br> <br>
+            <input type="radio" name="preference" value="Abonnement box beauté - Mensuel" id="mensuel" required>
+            <label for="Madame">Abonnement box beauté Mensuel = 16,80€</label> <br> <br>
+            <input type="radio" name="preference" value="Abonnement box beauté - 6 mois" id="sixmois">
+            <label for="Monsieur">Abonnement box beauté 6 mois = 91,00€</label> <br> <br>
+            <input type="radio" name="preference" value="Abonnement box beauté - 12 mois" id="douzemois">
+            <label for="no-genre">Abonnement box beauté 12 mois = 178,00€ </label> <br> <br>
+          </p>
+          <p>
+            <label for="">Dites nous en plus !</label>
+            <br>
+            <textarea name="message" id="message" rows="8" cols="80"></textarea>
+          </p> <br>
+          <p>
+            <input type="checkbox" name="cgv" id="cgv" value="" checked required>
+            <label for="cgv">J'ai lu et j'accepte les Conditions générales de ventes <sup>*</sup> </label> <br>
+
+            <input type="checkbox" name="news" id="news" value="">
+            <label for="news">Je m'abonne à la newsletter et j'accepte de recevoir des mails de nos partenaires !</label> <br>
+            </p> <br>
+            <p>
+              <input class="btn" type="submit" name="submitForm" id="submitForm" value="Envoyer le formulaire">
+            </p>
+        </div>
+      </fieldset>
+
+    </form>
+
+  </section>
+
+</body>
+
+</html>

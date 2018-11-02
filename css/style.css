@@ -1,0 +1,169 @@
+/* ------RESET------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+
+/* ,ol, ul, li */
+  {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2em;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  color: #333;
+  background-image: url("../img/form1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+::-moz-selection {
+  color: white;
+  background: #CEF7A0;
+}
+
+::selection {
+  color: white;
+  background: #CEF7A0;
+}
+
+.contenair {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 90px;
+  padding: 30px;
+  border-style: solid;
+  border-radius: 30px;
+  background: lavenderblush;
+  opacity: 0.9;
+  width: 50%;
+}
+
+/* ------TYPOGRAPHY------ */
+/* Texts */
+p {
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.title {
+  margin-left: 90px;
+  font-size: 2.5rem;
+  color: lavenderblush;
+  outline-color: black;
+}
+
+.identity-lab {
+  display: inline-block;
+  width: 210px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Links */
+a, a:visited {
+  color: #690375;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* Titles */
+h1, h2, h3, h4, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left: 90px;
+  color: lavenderblush;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+h3, h4, h5, h6,  {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+h7 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+}
+/*------ MSG AREA ------*/
+textarea {
+  resize: none;
+  border-radius: 20px;
+}
+
+textarea .focus {
+  outline-color: Pink;
+}
+
+sup {
+  color: Red;
+}
+/*------CONTAINER-------*/
+
+fieldset {
+  border-style: none;
+}
+
+.civility {
+  margin: 20px;
+}
+
+.identity {
+  margin: 20px;
+}
+
+legend {
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+/*------ BOTTON --------*/
+input#submitForm:hover {
+  background: black;
+  color: lavender;
+}
+
+input#submitForm {
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 7px;
+}
